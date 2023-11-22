@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="dailyActivityRowModel" type="com.dessapplication.app.modules.dailyactivity.data.model.DailyActivityRowModel"/>
+    </data>
+    <FrameLayout android:id="@+id/frameGlobe"
+        android:layout_height="wrap_content" android:layout_width="@dimen/_31pxh">
+        <FrameLayout android:background="@color/white_A700_0a"
+            android:id="@+id/frameGroupThree"
+            android:layout_gravity="start"
+            android:layout_height="wrap_content" android:layout_width="wrap_content"/>
+        <FrameLayout android:background="@color/white_A700_0a"
+            android:id="@+id/frameGroupFour"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_3pxh"
+            android:layout_marginVertical="@dimen/_3pxv" android:layout_width="wrap_content"/>
+        <FrameLayout android:background="@color/white_A700_0a"
+            android:id="@+id/frameGroupFive"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_6pxv"
+            android:layout_marginEnd="@dimen/_6pxh"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_5pxv" android:layout_width="wrap_content"/>
+    </FrameLayout>
+</layout>

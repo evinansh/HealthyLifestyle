@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="halamanAwalVM" type="com.dessapplication.app.modules.halamanawal.data.viewmodel.HalamanAwalVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearHalamanawal"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblack_900">
+        <FrameLayout android:id="@+id/frameStackrectanglefiftyfour"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_126pxv"
+            android:layout_marginEnd="@dimen/_77pxh"
+            android:layout_marginStart="@dimen/_77pxh"
+            android:layout_marginTop="@dimen/_230pxv" android:layout_width="@dimen/_135pxh">
+            <View
+                android:background="@drawable/rectangle_bg_bluegray_100_radius_15"
+                android:id="@+id/viewRectangleFiftyFour"
+                android:layout_gravity="top|center"
+                android:layout_height="@dimen/_55pxh"
+                android:layout_marginBottom="@dimen/_10pxv"
+                android:layout_marginEnd="@dimen/_50pxh"
+                android:layout_marginStart="@dimen/_50pxh" android:layout_width="@dimen/_35pxh"/>
+            <View
+                android:background="@drawable/rectangle_bg_bluegray_100_radius_15"
+                android:id="@+id/viewRectangleFiftyFive"
+                android:layout_gravity="bottom|center"
+                android:layout_height="@dimen/_55pxh"
+                android:layout_marginEnd="@dimen/_51pxh"
+                android:layout_marginStart="@dimen/_51pxh"
+                android:layout_marginTop="@dimen/_10pxv" android:layout_width="@dimen/_33pxh"/>
+            <View
+                android:background="@drawable/rectangle_bg_bluegray_100_radius_15"
+                android:id="@+id/viewRectangleFiftySix"
+                android:layout_gravity="end"
+                android:layout_height="@dimen/_33pxv"
+                android:layout_marginBottom="@dimen/_46pxv"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_46pxv" android:layout_width="@dimen/_55pxh"/>
+            <View
+                android:background="@drawable/rectangle_bg_bluegray_100_radius_15"
+                android:id="@+id/viewRectangleFiftySeven"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_33pxv"
+                android:layout_marginBottom="@dimen/_46pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_46pxv" android:layout_width="@dimen/_55pxh"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtLanguage"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_73pxh"
+            android:layout_marginStart="@dimen/_77pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@{halamanAwalVM.halamanAwalModel.txtLanguage}"
+            style="@style/txtKaushanScriptregular30" tools:text="@string/msg_healthy_lifest"/>
+        <TextView android:id="@+id/txtPrice"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_29pxv"
+            android:layout_marginEnd="@dimen/_77pxh"
+            android:layout_marginStart="@dimen/_77pxh"
+            android:layout_marginTop="@dimen/_320pxv"
+            android:layout_width="wrap_content"
+            android:text="@{halamanAwalVM.halamanAwalModel.txtPrice}"
+            style="@style/txtPlusJakartaSansromanbold12" tools:text="@string/msg_power_by_star"/>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="educationRowModel" type="com.dessapplication.app.modules.education.data.model.EducationRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrectangleseventeen"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal" style="@style/groupStylebluegray_100_14cornerRadius">
+        <ImageView android:id="@+id/imageRectangleSeventeen"
+            android:layout_height="@dimen/_79pxh"
+            android:layout_marginBottom="@dimen/_7pxv"
+            android:layout_marginStart="@dimen/_5pxh"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_width="@dimen/_62pxh"
+            android:scaleType="fitXY" cornerRadius="@{@dimen/_7pxh}"
+            imageRes="@{@drawable/img_rectangle17}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle17"/>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumncegahstunting"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15pxv"
+            android:layout_marginEnd="@dimen/_7pxh"
+            android:layout_marginStart="@dimen/_6pxh"
+            android:layout_marginTop="@dimen/_8pxv"
+            android:layout_weight="0.78" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:gravity="center_horizontal"
+                android:id="@+id/txtCegahStunting"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_7pxh"
+                android:layout_width="match_parent"
+                android:text="@{educationRowModel.txtCegahStunting}"
+                style="@style/txtPlusJakartaSansromanbold8" tools:text="@string/msg_cegah_stunting"/>
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowidntimesest"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="wrap_content" android:orientation="horizontal">
+                <TextView android:ellipsize="end"
+                    android:id="@+id/txtIDNTIMESEst"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:singleLine="true"
+                    android:text="@{educationRowModel.txtIDNTIMESEst}"
+                    style="@style/txtPlusJakartaSansromansemibold5" tools:text="@string/msg_idn_times_est"/>
+                <ImageView android:id="@+id/imageVector"
+                    android:layout_height="@dimen/_5pxh"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_marginStart="@dimen/_2pxh"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_width="@dimen/_6pxh"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_vector_blue_300"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_vector_blue_300"/>
+            </LinearLayout>
+            <TextView android:id="@+id/txtDescription"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_4pxv"
+                android:layout_width="match_parent"
+                android:text="@{educationRowModel.txtDescription}"
+                style="@style/txtPlusJakartaSansromansemibold5" tools:text="@string/msg_jakarta_idn_ti"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

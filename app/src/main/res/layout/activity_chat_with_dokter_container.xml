@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="chatWithDokterContainerVM" type="com.dessapplication.app.modules.chatwithdoktercontainer.data.viewmodel.ChatWithDokterContainerVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearChatwithdokte"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/_17pxv"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyleblack_900">
+        <FrameLayout android:id="@+id/fragmentContainer"
+            android:layout_height="match_parent"
+            android:layout_weight="1" android:layout_width="match_parent"/>
+        <FrameLayout android:gravity="center_horizontal"
+            android:id="@+id/frameBottombar"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_14pxh"
+            android:layout_marginStart="@dimen/_14pxh"
+            android:layout_width="match_parent" style="@style/groupStylegray_900_5">
+            <LinearLayout android:id="@+id/linearRowvector"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/_7pxv"
+                android:layout_marginTop="@dimen/_7pxv"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <LinearLayout android:id="@+id/linearRowcamera"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.89"
+                    android:layout_width="0dp"
+                    android:orientation="horizontal" style="@style/groupStylewhite_A700_16cornerRadius">
+                    <ImageView android:id="@+id/imageCamera"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_18pxh"
+                        android:layout_marginBottom="@dimen/_12pxv"
+                        android:layout_marginStart="@dimen/_14pxh"
+                        android:layout_marginTop="@dimen/_12pxv"
+                        android:layout_width="@dimen/_20pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_camera"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_camera"/>
+                    <ImageView android:id="@+id/imageMicrophone"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_20pxh"
+                        android:layout_marginBottom="@dimen/_11pxv"
+                        android:layout_marginEnd="@dimen/_16pxh"
+                        android:layout_marginStart="@dimen/_188pxh"
+                        android:layout_marginTop="@dimen/_11pxv"
+                        android:layout_width="@dimen/_14pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_microphone"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_microphone"/>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/frameStackvector"
+                    android:layout_height="@dimen/_32pxv"
+                    android:layout_marginBottom="@dimen/_5pxv"
+                    android:layout_marginTop="@dimen/_5pxv" android:layout_width="@dimen/_32pxh">
+                    <ImageView android:id="@+id/imageVector"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/_11pxh"
+                        android:layout_marginBottom="@dimen/_10pxv"
+                        android:layout_marginTop="@dimen/_10pxv"
+                        android:layout_width="@dimen/_15pxh"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/img_vector"
+                        tools:ignore="ContentDescription" tools:src="@drawable/img_vector"/>
+                    <View
+                        android:background="@drawable/rectangle_bg_bluegray_100_3d_radius_6"
+                        android:id="@+id/viewRectangleFortyTwo"
+                        android:layout_height="@dimen/_32pxh" android:layout_width="@dimen/_32pxh"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</layout>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="txtKaushanScriptregular30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/gray_50</item>
+        <item name="android:fontFamily">@font/kaushan_script</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="btnSolidRounded_2">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_500_16_radius_18</item>
+    </style>
+    <style name="groupStylegray_900cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_radius_23</item>
+    </style>
+    <style name="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_blue_900_radius_9</item>
+    </style>
+    <style name="groupStylecornerRadius">
+        <item name="android:background">@drawable/rectangle_border_white_a700_radius_8</item>
+    </style>
+    <style name="etSolidRounded_1">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_500_16_radius_18</item>
+    </style>
+    <style name="groupStylegray_500_16cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_500_16_radius_18</item>
+    </style>
+    <style name="txtPlusJakartaSansitaliclight5">
+        <item name="android:textSize">@dimen/_5pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasanssemibolditalic8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/indigo_A200</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold5">
+        <item name="android:textSize">@dimen/_5pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold6">
+        <item name="android:textSize">@dimen/_6pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansitaliclight5_1">
+        <item name="android:textSize">@dimen/_5pxh</item>
+        <item name="android:textColor">@color/indigo_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="etSolidRounded">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_300</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_900_radius_12</item>
+    </style>
+    <style name="btnSolidRounded">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_blue_a700_radius_12</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_8</item>
+    </style>
+    <style name="groupStylebluegray_600cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_600_radius_23</item>
+    </style>
+    <style name="etSolidRoundedOutline">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_300</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_900_border_blue_a700_radius_12</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextralight8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">200</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold15">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextrabold30">
+        <item name="android:textSize">@dimen/_30pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasanssemibold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylebluegray_100_1ccornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_100_1c_radius_10</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasanssemibold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold17">
+        <item name="android:textSize">@dimen/_17pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasanssemibold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_300</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromanlight5_1">
+        <item name="android:textSize">@dimen/_5pxh</item>
+        <item name="android:textColor">@color/green_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="groupStylelime_800cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_lime_800_radius_4</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold11">
+        <item name="android:textSize">@dimen/_11pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylegray_900_7fcornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_7f_radius_12</item>
+    </style>
+    <style name="groupStylebluegray_1">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_900_radius_25</item>
+    </style>
+    <style name="txtSolidRounded">
+        <item name="android:textSize">@dimen/_5pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_bluegray_800_radius_3</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700_99</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtPlusJakartaSansromansemibold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylewhite_A700_16cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_16_radius_20</item>
+    </style>
+    <style name="txtPlusJakartaSansromanmedium8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="txtPlusJakartaSansromanregular8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansmedium16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_300</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextrabold20">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="etSolidRoundedOutline_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/red_A200</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+        <item name="android:background">@drawable/rectangle_bg_pink_900_border_red_a200_radius_6</item>
+    </style>
+    <style name="txtSolidRounded_1">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_900_4c_radius_7</item>
+    </style>
+    <style name="groupStylebluegray_900cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_900_radius_32</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextrabold6">
+        <item name="android:textSize">@dimen/_6pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="groupStyleindigo_800_28cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_indigo_800_28_radius_19</item>
+    </style>
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_20</item>
+    </style>
+    <style name="groupStylegray_900_4">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_a8_radius_14</item>
+    </style>
+    <style name="groupStylegray_900_5">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_a8_radius_28</item>
+    </style>
+    <style name="txtPlusJakartaSansromanbold11_1">
+        <item name="android:textSize">@dimen/_11pxh</item>
+        <item name="android:textColor">@color/red_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStylegray_900_2">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_a8_radius_22</item>
+    </style>
+    <style name="groupStylegray_900_3">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_a8_radius_18</item>
+    </style>
+    <style name="txtPlusJakartaSansromanmedium6">
+        <item name="android:textSize">@dimen/_6pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylegray_900_1">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_a8_radius_23</item>
+    </style>
+    <style name="txtPlusJakartaSansromanlight8">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="groupStylebluegray_100_26cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_100_26_radius_15</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextrabold13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700_4c</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtPlusJakartaSansromanlight9">
+        <item name="android:textSize">@dimen/_9pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasanssemibold14_1">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/red_A200</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStyleblack_900">
+        <item name="android:background">@drawable/rectangle_bg_black_900</item>
+    </style>
+    <style name="txtPlusJakartaSansromanlight10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="groupStylegreen_700_a3cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_green_700_a3_radius_4</item>
+    </style>
+    <style name="txtPlusJakartaSansromanlight5">
+        <item name="android:textSize">@dimen/_5pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="txtPlusJakartaSansromanmedium15">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtPlusJakartaSansromanmedium13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="groupStylegray_900_a8cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_a8_radius_19</item>
+    </style>
+    <style name="groupStylebluegray_100_14cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_100_14_radius_8</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextrabold14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="txtPlusJakartaSansplusjakartasansextrabold15">
+        <item name="android:textSize">@dimen/_15pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/plus_jakarta_sans</item>
+        <item name="android:textFontWeight" tools:targetApi="p">800</item>
+    </style>
+    <style name="searchViewGroupSixteen" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">@dimen/_8pxh</item>
+        <item name="android:textColorPrimary">@color/white_A700_70</item>
+        <item name="android:textColorHint">@color/white_A700_70</item>
+    </style>
+</resources>

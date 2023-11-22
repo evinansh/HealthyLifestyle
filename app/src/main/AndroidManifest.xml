@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.dessapplication.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.dessapplication.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.dessapplication.app.modules.vitrualkonsultasi.ui.VitrualKonsultasiActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.registerone.ui.RegisterOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.pertanyaanterakhirteskesehatanmental.ui.PertanyaanTerakhirTesKesehatanMentalActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.educationtwo.ui.EducationTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.chatwithdoktercontainer.ui.ChatWithDokterContainerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.pertanyaanteskesehatanmental.ui.PertanyaanTesKesehatanMentalActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.vcwithdokter.ui.VcWithDokterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.register.ui.RegisterActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.loginone.ui.LoginOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.perstujuanteskesehatanmental.ui.PerstujuanTesKesehatanMentalActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.profil.ui.ProfilActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.chatcomunity.ui.ChatComunityActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.login.ui.LoginActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.education.ui.EducationActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.teskesehatan.ui.TesKesehatanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.notifikasi1.ui.Notifikasi1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.pertanyaanterakhirteskesehatanmentalone.ui.PertanyaanTerakhirTesKesehatanMentalOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.dessapplication.app.modules.dailyactivity.ui.DailyActivityActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.dessapplication.app.modules.halamanawal.ui.HalamanAwalActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

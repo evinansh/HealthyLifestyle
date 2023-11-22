@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="notifikasiChatVM" type="com.dessapplication.app.modules.notifikasichat.data.viewmodel.NotifikasiChatVM"/>
+    </data>
+    <ScrollView android:clipToPadding="false"
+        android:fillViewport="true"
+        android:id="@+id/scrollViewScrollview"
+        android:layout_height="match_parent" android:layout_width="match_parent">
+        <LinearLayout android:id="@+id/linearColumnellipseeighteen"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" android:orientation="vertical">
+            <LinearLayout android:gravity="start"
+                android:id="@+id/linearRowellipseeighteen"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_17pxh"
+                android:layout_marginStart="@dimen/_17pxh"
+                android:layout_width="match_parent" android:orientation="horizontal">
+                <ImageView android:id="@+id/imageEllipseEighteen"
+                    android:layout_height="@dimen/_40pxh"
+                    android:layout_width="@dimen/_40pxh"
+                    android:scaleType="centerCrop" circular="@{true}"
+                    imageRes="@{@drawable/img_rectangle21}"
+                    tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle21"/>
+                <LinearLayout android:gravity="start"
+                    android:id="@+id/linearColumndrboykesudra"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_7pxv"
+                    android:layout_marginStart="@dimen/_12pxh"
+                    android:layout_marginTop="@dimen/_3pxv"
+                    android:layout_weight="0.84"
+                    android:layout_width="0dp" android:orientation="vertical">
+                    <TextView android:ellipsize="end"
+                        android:id="@+id/txtDrBoykeSudra"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/_10pxh"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{notifikasiChatVM.notifikasiChatModel.txtDrBoykeSudra}"
+                        style="@style/txtPlusJakartaSansromansemibold10" tools:text="@string/msg_dr_boyke_sudra3"/>
+                    <TextView android:ellipsize="end"
+                        android:gravity="center_horizontal"
+                        android:id="@+id/txtHanyakesemutan"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_1pxh"
+                        android:layout_marginTop="@dimen/_4pxv"
+                        android:layout_width="match_parent"
+                        android:singleLine="true"
+                        android:text="@{notifikasiChatVM.notifikasiChatModel.txtHanyakesemutan}"
+                        style="@style/txtPlusJakartaSansplusjakartasansextralight8" tools:text="@string/msg_hanya_kesemutan"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:background="@color/white_A700_19"
+                android:id="@+id/lineLineTwo"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_1pxv"
+                android:layout_marginTop="@dimen/_19pxv" android:layout_width="@dimen/_360pxh"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>
